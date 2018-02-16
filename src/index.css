@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav{
+  font-size: 24px;
+  padding: 35px 50px;
+  font-family: 'Crimson Text', serif;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #222;
+  background: #A92B20;
+  color: white;
+  height: 35px;
+}
+group{
+  font-size: 24px;
+  font-family: 'Crimson Text', serif;
+  justify-content: space-around;
+  border-bottom: solid 1px #222;
+  background: #D1483B;
+  color: white;
+  height: auto;
+  width: 25%;
+}
+a{
+  text-decoration: none;
+  color: white ;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+/* D1483B
+EB6C5E */
