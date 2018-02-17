@@ -7,11 +7,11 @@ export default class ShelfA extends Component {
       <div>
 
       <div className='shelf'>
-      <nav className='navb'>
+      <nav className='nav'>
 
 
       <Link to='/' className='links'>Shelfie</Link>
-      <Link to='/shelfA' className='links'>ShelfA</Link>
+      <Link to='/shelfA' className='links'>Shelf A</Link>
 
       </nav>
       </div>

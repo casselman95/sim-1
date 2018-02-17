@@ -5,10 +5,16 @@ export default class ShelfD extends Component {
   render(){
     return(
       <div>
-      <nav className='nav'>
-      <Link to='/' className='links'>Shelfie</Link>
-        </nav>
 
+      <div className='shelf'>
+      <nav className='nav'>
+
+
+      <Link to='/' className='links'>Shelfie</Link>
+      <Link to='/shelfA' className='links'>Shelf D</Link>
+
+      </nav>
+      </div>
       </div>
     )
   }

@@ -9,10 +9,10 @@ export default class Home extends Component {
       <Link to='/' className='links'>Shelfie</Link>
       </nav>
       <div className='group'>
-      <Link to='/shelfA'>Shelf A</Link>
-      <Link to='/shelfB'>Shelf B</Link>
-      <Link to='/shelfC'>Shelf C</Link>
-      <Link to='/shelfD'>Shelf D</Link>
+      <Link to='/shelfA'><button>Shelf A</button></Link>
+      <Link to='/shelfB'><button>Shelf B</button></Link>
+      <Link to='/shelfC'><button>Shelf C</button></Link>
+      <Link to='/shelfD'><button>Shelf D</button></Link>
       </div>
       </div>
     );
